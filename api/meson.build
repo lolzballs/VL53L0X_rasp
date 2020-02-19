@@ -10,3 +10,14 @@ api_inc = include_directories(
   'core/inc'
 )
 
+api_headers = files(
+  'core/inc/vl53l0x_api.h',
+  'core/inc/vl53l0x_api_core.h',
+  'core/inc/vl53l0x_api_calibration.h',
+  'core/inc/vl53l0x_api_ranging.h',
+  'core/inc/vl53l0x_api_strings.h',
+  'core/inc/vl53l0x_def.h',
+  'core/inc/vl53l0x_device.h',
+  'core/inc/vl53l0x_interrupt_threshold_settings.h',
+  'core/inc/vl53l0x_tuning.h',
+)
